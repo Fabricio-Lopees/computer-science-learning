@@ -7,4 +7,3 @@ for line in fhand:
 	if len(words) < 3 : continue      # <---- NEW LINE
 	if words[0] != 'From' : continue
 	print(words[2])
-print(count)
