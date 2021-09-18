@@ -1,8 +1,14 @@
-mail_file = open('chapter7/mbox-short.txt')
-text_file = open('file.txt','w')
-text = ''
-for line in mail_file:
-	if line.startswith('From'):
-		text = text + line
-text_file.write(text)
-text_file.close()
+def show_mail_author(mail):
+	file = open(mail)
+	count = 0
+	for line in file:
+		if not line.startswith('From') or line.startswith('From:'): 
+			continue
+		else:
+			words = line.split()
+			print(words[1])
+			count = count + 1
+	print("There were "+str(count)+" lines in the file with From as the first word")
+
+file_name = input("Enter a file name:")
+show_mail_author(file_name)
