@@ -15,3 +15,4 @@ for word in word_list:
 
 
 print(words)
+print('\n','daily' in words)
