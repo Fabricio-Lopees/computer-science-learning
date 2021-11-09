@@ -24,9 +24,10 @@
 <p align="center"> <strong>Curriculum version</strong>: <i>8.0.0</i> </p>
 
 ### Intro CS
-- [Introduction to Programming](exercises/01.python-for-everybody) :hourglass:
-  - Python for everybody
+- [Introduction to Programming](exercises/01.python-for-everybody) 
+  - Python for everybody :heavy_check_mark:
 - Introduction to Computer Science
+  - Introduction to Computer Science and Programming using Python :hourglass:
 ### Core CS
 - Core programming
 - Core math
