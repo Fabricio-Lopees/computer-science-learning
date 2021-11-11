@@ -30,6 +30,7 @@
   - Introduction to Computer Science and Programming using Python :hourglass:
 ### Core CS
 - Core programming
+  - How to Code - Simple Data :hourglass:
 - Core math
 - CS Tools
 - Core systems
